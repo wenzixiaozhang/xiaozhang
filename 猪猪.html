@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>会动的猪</title>
+  <style>
+    .pig {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      animation: movepig 2s ease-in-out infinite;
+    }
+
+    @keyframes movepig {
+      0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+      }
+
+      50% {
+        transform: translate(-50%, -50%) rotate(20deg);
+      }
+
+      100% {
+        transform: translate(-50%, -50%) rotate(0deg);
+      }
+    }
+    h1{
+     text-align: center;  
+     color: aqua; 
+    }
+  </style>
+</head>
+
+<body>
+    <table>
+        <h1>我是猪猪</h1>
+    </table>
+  <img src="C:\Users\PC\Desktop\wdg.png\1bnemcwmopn.jpg" alt="会动的猪" class="pig">
+</body>
+
+</html>
