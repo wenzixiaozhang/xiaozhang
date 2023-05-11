@@ -1,0 +1,20 @@
+body{   
+    background-color:khaki;
+    color:rgb(248, 248, 250);
+}
+hr{
+    height: 1px;
+    width: 10%;
+    border-style: dotted none none none;
+    border-width: 10px;
+    border-color:dimgray;
+}
+#我的名字{
+    color: aqua;
+}
+.wada{
+    color: violet;
+}
+a:hover{
+    background-color: aqua;
+}
